@@ -1,6 +1,0 @@
-[library]
-name = "server"
-authors = ["Bartosz Szostak <bartosz.szostakd@xware.pl>"]
-
-[dependencies]
-cpp = 23
