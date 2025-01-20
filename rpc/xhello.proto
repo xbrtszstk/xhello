@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package xhello;
+
+service service {
+  rpc rpc (request) returns (response);
+}
+
+message request {
+  string name = 1;
+}
+
+message response {
+  string message = 1;
+}
